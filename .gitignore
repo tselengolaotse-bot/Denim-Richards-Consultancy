@@ -1,0 +1,22 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies (if you ever add Node)
+node_modules/
+
+# Environment files (never commit secrets)
+.env
+.env.local
+.env.*.local
+
+# Build output (if you ever add a build step)
+dist/
+build/
