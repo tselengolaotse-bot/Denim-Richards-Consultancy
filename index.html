@@ -2122,7 +2122,7 @@ if(slides.length) setInterval(() => showSlide((currentSlide + 1) % slides.length
 
 /* ══ CUSTOM CALENDAR ══ */
 function createCalendar(prefix, getterName) {
-  var calendarURL = 'https://calendly.com/YOUR-CALENDLY-URL';
+  var calendarURL = 'https://calendly.com/denim-richards8';
   var today = new Date();
   var curY = today.getFullYear();
   var curM = today.getMonth();
@@ -2196,7 +2196,7 @@ function submitBooking(e) {
   var service = (document.getElementById('bk-service') || {}).value || '';
   var message = (document.getElementById('bk-msg') || {}).value || '';
   var a1 = [company, service, message].filter(Boolean).join(' | ');
-  var calURL = 'https://calendly.com/YOUR-CALENDLY-URL';
+  var calURL = 'https://calendly.com/denim-richards8';
   var url = calURL + '?name=' + encodeURIComponent(name) + '&email=' + encodeURIComponent(email) + '&a1=' + encodeURIComponent(a1);
   var sel = window.getSelectedDate ? window.getSelectedDate() : null;
   if (sel) {
@@ -2215,7 +2215,7 @@ function submitSpeakingBooking(e) {
   var service = (document.getElementById('sp-service') || {}).value || '';
   var message = (document.getElementById('sp-msg') || {}).value || '';
   var a1 = [company, service, message].filter(Boolean).join(' | ');
-  var calURL = 'https://calendly.com/YOUR-CALENDLY-URL';
+  var calURL = 'https://calendly.com/denim-richards8';
   var url = calURL + '?name=' + encodeURIComponent(name) + '&email=' + encodeURIComponent(email) + '&a1=' + encodeURIComponent(a1);
   var sel = window.getSpSelectedDate ? window.getSpSelectedDate() : null;
   if (sel) {
